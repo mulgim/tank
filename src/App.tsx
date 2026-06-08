@@ -41,8 +41,8 @@ export default function App() {
             className="flex items-center focus:outline-none cursor-pointer group animate-fade-in"
           >
             <img
-              src="/src/assets/images/taejangyeon_logo_1780954254782.png"
-              alt="태장연 소꿉친구 로고"
+              src="https://github.com/mulgim/tank/blob/main/src/assets/images/taejangyeon_logo_1780954254782.png?raw=true"
+              alt="로고"
               className="h-10 md:h-12 object-contain group-hover:opacity-90 transition-opacity"
               referrerPolicy="no-referrer"
             />
