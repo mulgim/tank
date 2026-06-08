@@ -105,7 +105,7 @@ export default function CharacterProfile({ affinity, setAffinity }: CharacterPro
           <div className="space-y-3.5 pt-1.5">
             <h4 className="text-[11px] font-mono font-bold tracking-wider uppercase text-zinc-400 flex items-center space-x-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-lime-brand"></span>
-              <span>상세 기록)</span>
+              <span>상세 기록</span>
             </h4>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 bg-black/45 border border-zinc-800/90 p-4 rounded-xl font-sans font-light">
