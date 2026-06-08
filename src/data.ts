@@ -9,7 +9,7 @@ export const ASSETS = {
   // Utilizing the newly generated combat portrait of Mayri (Black hair, green streaks in high side-up ponytail, gold eyes)
   mayriPortrait: 'https://github.com/mulgim/tank/blob/main/src/assets/images/mayri_combat_portrait_1780942252413.png?raw=true',
   // Utilizing the preexisting gorgeous fantasy backdrop
-  medievalLandscape: '/src/assets/images/medieval_landscape_1780940237124.png',
+  medievalLandscape: 'https://github.com/mulgim/tank/blob/main/src/assets/images/medieval_landscape_1780940237124.png?raw=true',
 };
 
 export const MAYRI_INFO = {
