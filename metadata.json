@@ -1,0 +1,6 @@
+{
+  "name": "에메랄드 오스 (Emerald Oath)",
+  "description": "검은색과 라임색 중심의 중세 판타지 스타일 여기사 메이리와의 깊은 인연과 비밀 일지를 담은 고풍스러운 캐릭터 쇼케이스 브랜드 포탈입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
