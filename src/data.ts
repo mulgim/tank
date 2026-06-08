@@ -7,7 +7,7 @@ import { DialogLine, LoreCard, SecretDairyLog, CharacterVoiceQuote } from './typ
 
 export const ASSETS = {
   // Utilizing the newly generated combat portrait of Mayri (Black hair, green streaks in high side-up ponytail, gold eyes)
-  mayriPortrait: '/src/assets/images/mayri_combat_portrait_1780942252413.png',
+  mayriPortrait: 'https://github.com/mulgim/tank/blob/main/src/assets/images/mayri_combat_portrait_1780942252413.png?raw=true',
   // Utilizing the preexisting gorgeous fantasy backdrop
   medievalLandscape: '/src/assets/images/medieval_landscape_1780940237124.png',
 };
