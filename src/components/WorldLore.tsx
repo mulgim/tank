@@ -34,7 +34,7 @@ export default function WorldLore() {
     },
     ironkam: {
       name: '군사 요새 도시 아이언캄',
-      theme: '극북의 설원 마수와 야만인 군세를 격멸하는 철벽 요새',
+      theme: '극북의 설원 마수를 야만인들과 격멸하는 철벽 요새',
       role: '혹한에서 피어나는 철의 연꽃.',
       desc: '존재 자체로 대륙의 방패이며 강인한 전사들이 모이는 곳이자, 그들의 무덤이 되는 곳.',
       accent: 'text-sky-400'
