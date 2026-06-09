@@ -87,6 +87,63 @@ export default function WorldLore() {
         </div>
       </div>
 
+       {/* 세계관 역사 (World History) */}
+      <div className="space-y-6" id="world-history-section">
+        <div className="flex items-center space-x-2 border-b border-zinc-800 pb-3">
+          <Flame className="w-5 h-5 text-red-400" />
+          <h3 className="font-serif text-sm md:text-base font-bold text-zinc-100 uppercase tracking-widest">
+            WORLD HISTORY <span className="text-xs text-red-400 ml-1">마왕 처단과 세 명의 전사</span>
+          </h3>
+        </div>
+
+        <div className="bg-dark-obsidian/45 border border-zinc-800 p-6 rounded-xl space-y-6">
+          <div className="space-y-3">
+            <h4 className="text-lg font-serif font-bold text-zinc-100 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span>
+              정면 돌파, 장렬한 전설의 시작
+            </h4>
+            <div className="text-xs md:text-sm text-zinc-300 space-y-3.5 leading-relaxed font-sans font-light">
+              <p>과거 마왕이 수많은 마물들과 함께 나타났으며, 온 세상이 큰 혼란과 절망에 빠졌습니다.</p>
+              <p>그러던 중 세 명의 위대한 전사들이 홀연히 나타나 마물의 군세를 정면에서 정면으로 뚫어내기 시작했습니다. 세 장수가 단 세 명이서 마왕성까지 일직선으로 정면 돌파하겠노라 선언하자, 세상의 현자들과 장군들을 비롯해 많은 이들이 무모하고 미친 짓이라 부르며 손가락질했습니다.</p>
+              <p>하지만 이들은 그 우직한 정면 돌파법으로 엄청난 수의 마물 군세를 분쇄하여 헤집어 놓았고, 결국 마왕의 심장부 장벽을 돌파해 마왕의 목을 끝내 따내며 인류에게 영광의 시대를 안겼습니다. 영웅들은 그 성사 직후 전장에서 모두 장렬하게 전사하였습니다.</p>
+              <p className="text-zinc-400 italic bg-black/35 py-3 px-4.5 rounded-lg border-l-2 border-l-red-500/50 mt-1">
+                "수많은 역사학자들과 군사 전술학자들은 군대를 모으지 않은 이 무식한 방식을 기절초풍한 기행이라 폄하했으나, 너무나도 압도적이고 명확한 결과 앞에서는 침묵할 수밖에 없었다. 그리고 이 전설을 전해 듣고 자란 대륙 대부분의 어린 아이들은 방패와 대검을 쥔 용감한 전사를 가슴 깊이 동경하게 되었다."
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+            {/* 마우르가 */}
+            <div className="bg-black/35 border border-zinc-800/80 p-4.5 rounded-lg hover:border-red-500/25 transition-all group">
+              <span className="text-[10px] uppercase font-mono text-red-400 font-bold block mb-1 tracking-widest">TWO HEART SLAYER</span>
+              <h5 className="font-serif text-sm font-black text-zinc-100 mb-2 group-hover:text-red-300 transition-colors">마우르가 (Maurga)</h5>
+              <p className="text-xs text-zinc-400 font-sans leading-relaxed font-light">
+                북방 야만부족 최고의 전사. 신체 내부에 두 개의 심장을 품고 태어나 무한에 가까운 투지와 괴력을 폭발시켰습니다. 거대한 쌍대검을 거침없이 매섭게 휘두르며 몰려드는 마물 군세를 문자 그대로 찢어낸 폭풍의 중심이었습니다.
+              </p>
+            </div>
+
+            {/* 레인하르트 */}
+            <div className="bg-black/35 border border-zinc-800/80 p-4.5 rounded-lg hover:border-sky-500/25 transition-all group">
+              <span className="text-[10px] uppercase font-mono text-sky-400 font-bold block mb-1 tracking-widest">HOLY SHIELD & HAMMER</span>
+              <h5 className="font-serif text-sm font-black text-zinc-100 mb-2 group-hover:text-sky-300 transition-colors">레인하르트 (Reinhardt)</h5>
+              <p className="text-xs text-zinc-400 font-sans leading-relaxed font-light">
+                신성국 최강의 크루세이더. 신성력의 찬란한 은총이 어린 육중한 방패와 거대한 전격 워해머를 쥔 채, 선두에서 어떠한 포화와 돌격도 막아내며 대열을 정렬시켰습니다. 메이리가 깊이 경외하던 불굴의 가치였습니다.
+              </p>
+            </div>
+
+            {/* 호그 */}
+            <div className="bg-black/35 border border-zinc-800/80 p-4.5 rounded-lg hover:border-amber-500/25 transition-all group">
+              <span className="text-[10px] uppercase font-mono text-amber-500 font-bold block mb-1 tracking-widest">MERCENARY ROAD</span>
+              <h5 className="font-serif text-sm font-black text-zinc-100 mb-2 group-hover:text-amber-350 transition-colors">호그 (Hog)</h5>
+              <p className="text-xs text-zinc-400 font-sans leading-relaxed font-light">
+                대륙의 험지를 평정했던 전설적인 용병왕. 장인 기술로 설계된 갈고리낫과 묵직한 강쇠 사슬 무구만으로 허공을 화려하게 가르며, 단 일 합에 수십 마리의 정예 마물을 썰어 넘기던 전장의 그림자 살육자였습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       {/* Interactive World Map Grid */}
       <div className="space-y-4">
         <div className="flex items-center space-x-2 border-b border-zinc-800 pb-3">
