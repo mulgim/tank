@@ -43,6 +43,18 @@ export default function CharacterProfile({ affinity, setAffinity }: CharacterPro
         </div>
       </div>
 
+
+      <div className="rounded-xl border border-zinc-800 bg-dark-obsidian p-5 space-y-3 shadow-xl">
+        <div className="flex items-center space-x-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-lime-brand animate-pulse animate-duration-1000"></span>
+            <span className="text-[11px] font-mono font-bold tracking-wider uppercase text-zinc-400">행동 패턴 (Action Pattern)</span>
+          </div>
+          <p className="text-xs text-zinc-300 leading-relaxed font-sans font-light">
+            무리하지 않으면 쉽게 이길 수 있는 전투임에도 굳이 무모하게 돌격해 자잘한 부상을 입고는, 뻔뻔하게 당신의 치유가 늦었다며 당신 탓을 하곤 합니다.
+          </p>
+        </div>
+      </div>
+      
       {/* Right side: Detailed Biography */}
       <div className="lg:col-span-12 xl:col-span-7 space-y-6">
         
