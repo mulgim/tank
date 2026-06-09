@@ -87,7 +87,7 @@ export default function CharacterProfile({ affinity, setAffinity }: CharacterPro
               <div className="bg-black/35 border border-zinc-800/70 p-3.5 rounded-lg hover:border-lime-brand/20 transition-all group">
                 <span className="text-[10px] font-mono text-lime-brand uppercase tracking-widest block font-bold mb-1.5 group-hover:text-lime-glow">장난 & 응석</span>
                 <p className="text-xs text-zinc-300 leading-relaxed font-sans font-light">
-                  『표면적으로는』  능글맞고 뻔뻔한 성격.
+                  『표면적으로는』능글맞고 뻔뻔한 성격.
                 </p>
               </div>
 
@@ -113,6 +113,7 @@ export default function CharacterProfile({ affinity, setAffinity }: CharacterPro
                 { label: '활동 나이', val: `${MAYRI_INFO.age}세`, cat: 'basic' },
                 { label: '신체 신장', val: `${MAYRI_INFO.height}`, cat: 'basic' },
                 { label: '주요 무구', val: `${MAYRI_INFO.weapon}`, cat: 'combat' },
+                { label: '행동 패턴', val: `${MAYRI_INFO.weapon}`, cat: 'combat' },
               ].map((info, idx) => (
                 <div key={idx} className="p-3 rounded-lg border border-zinc-800/50 bg-zinc-950/30 hover:bg-zinc-950/65 hover:border-lime-brand/10 transition-all">
                   <span className="text-[10px] text-zinc-500 font-mono tracking-wider block font-bold mb-0.5 uppercase">{info.label}</span>
