@@ -79,7 +79,7 @@ export default function WorldLore() {
           <h2 className="font-serif text-2xl md:text-3xl font-black text-white tracking-widest uppercase">
             세계관 요약
           </h2>
-          <p className="text-xs md:text-sm text-zinc-300 leading-relaxed font-sans font-light">
+          <div className="text-xs md:text-sm text-zinc-300 leading-relaxed font-sans font-light">
             <p>과거, 어떤 위대한 예언자가 발전할 미래를 엿보아 미래의 기술들을 가져왔고,</p>
             <p>현대 기술과 중세가 절묘하게 섞인 지금의 세계가 되었습니다.</p>
             <p>핸드폰은 필수품이죠!</p>
