@@ -89,7 +89,7 @@ export default function MainScreen({
 
           <p className="text-zinc-500 text-xs md:text-sm leading-relaxed font-sans font-light">
             <p>당신은 소꿉친구, "메이리"와 함께 변경 마을 콘스의 최강 모험가 콤비입니다.</p>
-            <p>...물론 표면상으로만 그럴 뿐,<p/>
+            <p>...물론 표면상으로만 그럴 뿐,</p>
             <p>실상은 닥돌 성애자인 이 소꿉친구는 항상 무리하지 않아도 될 전투에서 돌격해 자잘한 부상을 입고는, 힐러인 당신의 탓을 하죠.</p>
             <p>어쩌다가 이렇게 되었을까요?</p>
           </p>
