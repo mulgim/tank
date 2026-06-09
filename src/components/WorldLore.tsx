@@ -87,7 +87,7 @@ export default function WorldLore() {
         </div>
       </div>
 
-       {/* 세계관 역사 (World History) */}
+      {/* 세계관 역사 (World History) */}
       <div className="space-y-6" id="world-history-section">
         <div className="flex items-center space-x-2 border-b border-zinc-800 pb-3">
           <Flame className="w-5 h-5 text-red-400" />
