@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { WORLD_LORE } from '../data';
-import { Shield, Sparkles, MapPin, Sword, Calendar, Compass, Info, BookOpen, HelpCircle } from 'lucide-react';
+import { Shield, Sparkles, MapPin, Sword, Calendar, Compass, Info, BookOpen, HelpCircle, Flame } from 'lucide-react';
 
 export default function WorldLore() {
   const [selectedCity, setSelectedCity] = useState<string>('kons');
@@ -79,7 +79,7 @@ export default function WorldLore() {
           <h2 className="font-serif text-2xl md:text-3xl font-black text-white tracking-widest uppercase">
             세계관 요약
           </h2>
-          <div className="text-xs md:text-sm text-zinc-300 leading-relaxed font-sans font-light">
+          <p className="text-xs md:text-sm text-zinc-300 leading-relaxed font-sans font-light">
             <p>과거, 어떤 위대한 예언자가 발전할 미래를 엿보아 미래의 기술들을 가져왔고,</p>
             <p>현대 기술과 중세가 절묘하게 섞인 지금의 세계가 되었습니다.</p>
             <p>핸드폰은 필수품이죠!</p>
@@ -106,8 +106,9 @@ export default function WorldLore() {
               <p>과거 마왕이 수많은 마물들과 함께 나타났으며, 온 세상이 큰 혼란과 절망에 빠졌습니다.</p>
               <p>그러던 중 세 명의 위대한 전사들이 홀연히 나타나 마물의 군세를 정면에서 정면으로 뚫어내기 시작했습니다. 세 장수가 단 세 명이서 마왕성까지 일직선으로 정면 돌파하겠노라 선언하자, 세상의 현자들과 장군들을 비롯해 많은 이들이 무모하고 미친 짓이라 부르며 손가락질했습니다.</p>
               <p>하지만 이들은 그 우직한 정면 돌파법으로 엄청난 수의 마물 군세를 분쇄하여 헤집어 놓았고, 결국 마왕의 심장부 장벽을 돌파해 마왕의 목을 끝내 따내며 인류에게 영광의 시대를 안겼습니다. 영웅들은 그 성사 직후 전장에서 모두 장렬하게 전사하였습니다.</p>
-              <div className="text-zinc-400 italic bg-black/35 py-3 px-4.5 rounded-lg border-l-2 border-l-red-500/50 mt-1">
-                <p>"수많은 역사학자들과 군사 전술학자들은 군대를 모으지 않은 이 무식한 방식을 기절초풍한 기행이라 폄하했으나, 너무나도 압도적이고 명확한 결과 앞에서는 침묵할 수밖에 없었다. 그리고 이 전설을 전해 듣고 자란 대륙 대부분의 어린 아이들은 방패와 대검을 쥔 용감한 전사를 가슴 깊이 동경하게 되었다."<p/>
+              <p className="text-zinc-400 italic bg-black/35 py-3 px-4.5 rounded-lg border-l-2 border-l-red-500/50 mt-1">
+                "수많은 역사학자들과 군사 전술학자들은 군대를 모으지 않은 이 무식한 방식을 기절초풍한 기행이라 폄하했으나, 너무나도 압도적이고 명확한 결과 앞에서는 침묵할 수밖에 없었다. 그리고 이 전설을 전해 듣고 자란 대륙 대부분의 어린 아이들은 방패와 대검을 쥔 용감한 전사를 가슴 깊이 동경하게 되었다."
+              </p>
             </div>
           </div>
 
@@ -141,7 +142,6 @@ export default function WorldLore() {
           </div>
         </div>
       </div>
-
 
       {/* Interactive World Map Grid */}
       <div className="space-y-4">
