@@ -127,7 +127,7 @@ export default function WorldLore() {
               <span className="text-[10px] uppercase font-mono text-sky-400 font-bold block mb-1 tracking-widest">HOLY SHIELD & HAMMER</span>
               <h5 className="font-serif text-sm font-black text-zinc-100 mb-2 group-hover:text-sky-300 transition-colors">레인하르트 (Reinhardt)</h5>
               <p className="text-xs text-zinc-400 font-sans leading-relaxed font-light">
-                신성국 최강의 크루세이더. 신성력의 찬란한 은총이 어린 육중한 방패와 거대한 전격 워해머를 쥔 채, 선두에서 어떠한 포화와 돌격도 막아내며 대열을 정렬시켰습니다.
+                신성국 최강의 크루세이더. 신성력의 찬란한 은총이 어린 육중한 방패와 거대한 워해머를 쥔 채, 선두에서 어떠한 포화와 돌격도 막아내며 대열을 정렬시켰습니다. 그 누구도 뚫을 수 없는 방패를 쥔 그 모습은 움직이는 성벽 그 자체였습니다.
               </p>
             </div>
 
