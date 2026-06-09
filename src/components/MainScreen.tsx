@@ -88,7 +88,7 @@ export default function MainScreen({
           </p>
 
           <p className="text-zinc-500 text-xs md:text-sm leading-relaxed font-sans font-light">
-            <p>당신은 소꿉친구 메이리 const [feedbackText, setFeedbackText] = useState<string>('');
+            <p>const [feedbackText, setFeedbackText] = useState<string>('');
   const [feedbackOpen, setFeedbackOpen] = useState<boolean>(false);
 
   const currentLine: DialogLine | undefined = VISUAL_NOVEL_PROLOGUE.find(
